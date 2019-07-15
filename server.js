@@ -5,7 +5,7 @@ const Pool = require('pg').Pool;
 //var pg = new pg.Pool(config);
 const pool = new Pool({
     user: 'postgres',
-    database: 'Sample',
+    database: 'practicedocker',
     password: 'password',
     port: 5432
 });
