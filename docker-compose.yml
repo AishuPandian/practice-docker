@@ -1,7 +1,7 @@
 version: "3"
 services:
-  practice_docker: 
-    image: aishwaryadevi24/practice_docker
+  practice-docker: 
+    image: aishwaryadevi24/practice-docker
     ports: 
       - 80:3000
     command: bash -c 'while !</dev/tcp/db/5432; do sleep 1; done; npm start'
